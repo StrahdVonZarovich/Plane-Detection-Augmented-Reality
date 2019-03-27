@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD4F203E224962E300F15FA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4F203D224962E300F15FA2 /* AppDelegate.swift */; };
+		FD4F2040224962E300F15FA2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4F203F224962E300F15FA2 /* ViewController.swift */; };
+		FD4F2043224962E300F15FA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD4F2041224962E300F15FA2 /* Main.storyboard */; };
+		FD4F2045224962E400F15FA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD4F2044224962E400F15FA2 /* Assets.xcassets */; };
+		FD4F2048224962E400F15FA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD4F2046224962E400F15FA2 /* LaunchScreen.storyboard */; };
+		FD4F2053224962E400F15FA2 /* PlaneDetectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4F2052224962E400F15FA2 /* PlaneDetectionTests.swift */; };
+		FD4F205E224962E400F15FA2 /* PlaneDetectionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4F205D224962E400F15FA2 /* PlaneDetectionUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD4F204F224962E400F15FA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD4F2032224962E300F15FA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD4F2039224962E300F15FA2;
+			remoteInfo = PlaneDetection;
+		};
+		FD4F205A224962E400F15FA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD4F2032224962E300F15FA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD4F2039224962E300F15FA2;
+			remoteInfo = PlaneDetection;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD4F203A224962E300F15FA2 /* PlaneDetection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlaneDetection.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD4F203D224962E300F15FA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD4F203F224962E300F15FA2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FD4F2042224962E300F15FA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD4F2044224962E400F15FA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD4F2047224962E400F15FA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD4F2049224962E400F15FA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD4F204E224962E400F15FA2 /* PlaneDetectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlaneDetectionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD4F2052224962E400F15FA2 /* PlaneDetectionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaneDetectionTests.swift; sourceTree = "<group>"; };
+		FD4F2054224962E400F15FA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD4F2059224962E400F15FA2 /* PlaneDetectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlaneDetectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD4F205D224962E400F15FA2 /* PlaneDetectionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaneDetectionUITests.swift; sourceTree = "<group>"; };
+		FD4F205F224962E400F15FA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD4F2037224962E300F15FA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD4F204B224962E400F15FA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD4F2056224962E400F15FA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD4F2031224962E300F15FA2 = {
+			isa = PBXGroup;
+			children = (
+				FD4F203C224962E300F15FA2 /* PlaneDetection */,
+				FD4F2051224962E400F15FA2 /* PlaneDetectionTests */,
+				FD4F205C224962E400F15FA2 /* PlaneDetectionUITests */,
+				FD4F203B224962E300F15FA2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD4F203B224962E300F15FA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD4F203A224962E300F15FA2 /* PlaneDetection.app */,
+				FD4F204E224962E400F15FA2 /* PlaneDetectionTests.xctest */,
+				FD4F2059224962E400F15FA2 /* PlaneDetectionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD4F203C224962E300F15FA2 /* PlaneDetection */ = {
+			isa = PBXGroup;
+			children = (
+				FD4F203D224962E300F15FA2 /* AppDelegate.swift */,
+				FD4F203F224962E300F15FA2 /* ViewController.swift */,
+				FD4F2041224962E300F15FA2 /* Main.storyboard */,
+				FD4F2044224962E400F15FA2 /* Assets.xcassets */,
+				FD4F2046224962E400F15FA2 /* LaunchScreen.storyboard */,
+				FD4F2049224962E400F15FA2 /* Info.plist */,
+			);
+			path = PlaneDetection;
+			sourceTree = "<group>";
+		};
+		FD4F2051224962E400F15FA2 /* PlaneDetectionTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD4F2052224962E400F15FA2 /* PlaneDetectionTests.swift */,
+				FD4F2054224962E400F15FA2 /* Info.plist */,
+			);
+			path = PlaneDetectionTests;
+			sourceTree = "<group>";
+		};
+		FD4F205C224962E400F15FA2 /* PlaneDetectionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FD4F205D224962E400F15FA2 /* PlaneDetectionUITests.swift */,
+				FD4F205F224962E400F15FA2 /* Info.plist */,
+			);
+			path = PlaneDetectionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD4F2039224962E300F15FA2 /* PlaneDetection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD4F2062224962E400F15FA2 /* Build configuration list for PBXNativeTarget "PlaneDetection" */;
+			buildPhases = (
+				FD4F2036224962E300F15FA2 /* Sources */,
+				FD4F2037224962E300F15FA2 /* Frameworks */,
+				FD4F2038224962E300F15FA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlaneDetection;
+			productName = PlaneDetection;
+			productReference = FD4F203A224962E300F15FA2 /* PlaneDetection.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD4F204D224962E400F15FA2 /* PlaneDetectionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD4F2065224962E400F15FA2 /* Build configuration list for PBXNativeTarget "PlaneDetectionTests" */;
+			buildPhases = (
+				FD4F204A224962E400F15FA2 /* Sources */,
+				FD4F204B224962E400F15FA2 /* Frameworks */,
+				FD4F204C224962E400F15FA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD4F2050224962E400F15FA2 /* PBXTargetDependency */,
+			);
+			name = PlaneDetectionTests;
+			productName = PlaneDetectionTests;
+			productReference = FD4F204E224962E400F15FA2 /* PlaneDetectionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FD4F2058224962E400F15FA2 /* PlaneDetectionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD4F2068224962E400F15FA2 /* Build configuration list for PBXNativeTarget "PlaneDetectionUITests" */;
+			buildPhases = (
+				FD4F2055224962E400F15FA2 /* Sources */,
+				FD4F2056224962E400F15FA2 /* Frameworks */,
+				FD4F2057224962E400F15FA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD4F205B224962E400F15FA2 /* PBXTargetDependency */,
+			);
+			name = PlaneDetectionUITests;
+			productName = PlaneDetectionUITests;
+			productReference = FD4F2059224962E400F15FA2 /* PlaneDetectionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD4F2032224962E300F15FA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Fatih Canbekli";
+				TargetAttributes = {
+					FD4F2039224962E300F15FA2 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					FD4F204D224962E400F15FA2 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = FD4F2039224962E300F15FA2;
+					};
+					FD4F2058224962E400F15FA2 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = FD4F2039224962E300F15FA2;
+					};
+				};
+			};
+			buildConfigurationList = FD4F2035224962E300F15FA2 /* Build configuration list for PBXProject "PlaneDetection" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD4F2031224962E300F15FA2;
+			productRefGroup = FD4F203B224962E300F15FA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD4F2039224962E300F15FA2 /* PlaneDetection */,
+				FD4F204D224962E400F15FA2 /* PlaneDetectionTests */,
+				FD4F2058224962E400F15FA2 /* PlaneDetectionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD4F2038224962E300F15FA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD4F2048224962E400F15FA2 /* LaunchScreen.storyboard in Resources */,
+				FD4F2045224962E400F15FA2 /* Assets.xcassets in Resources */,
+				FD4F2043224962E300F15FA2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD4F204C224962E400F15FA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD4F2057224962E400F15FA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD4F2036224962E300F15FA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD4F2040224962E300F15FA2 /* ViewController.swift in Sources */,
+				FD4F203E224962E300F15FA2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD4F204A224962E400F15FA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD4F2053224962E400F15FA2 /* PlaneDetectionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD4F2055224962E400F15FA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD4F205E224962E400F15FA2 /* PlaneDetectionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD4F2050224962E400F15FA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD4F2039224962E300F15FA2 /* PlaneDetection */;
+			targetProxy = FD4F204F224962E400F15FA2 /* PBXContainerItemProxy */;
+		};
+		FD4F205B224962E400F15FA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD4F2039224962E300F15FA2 /* PlaneDetection */;
+			targetProxy = FD4F205A224962E400F15FA2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD4F2041224962E300F15FA2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD4F2042224962E300F15FA2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD4F2046224962E400F15FA2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD4F2047224962E400F15FA2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD4F2060224962E400F15FA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FD4F2061224962E400F15FA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD4F2063224962E400F15FA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VUFK37G6FW;
+				INFOPLIST_FILE = PlaneDetection/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fatihcanbekli.PlaneDetection;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD4F2064224962E400F15FA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VUFK37G6FW;
+				INFOPLIST_FILE = PlaneDetection/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fatihcanbekli.PlaneDetection;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FD4F2066224962E400F15FA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VUFK37G6FW;
+				INFOPLIST_FILE = PlaneDetectionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fatihcanbekli.PlaneDetectionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlaneDetection.app/PlaneDetection";
+			};
+			name = Debug;
+		};
+		FD4F2067224962E400F15FA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VUFK37G6FW;
+				INFOPLIST_FILE = PlaneDetectionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fatihcanbekli.PlaneDetectionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlaneDetection.app/PlaneDetection";
+			};
+			name = Release;
+		};
+		FD4F2069224962E400F15FA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VUFK37G6FW;
+				INFOPLIST_FILE = PlaneDetectionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fatihcanbekli.PlaneDetectionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PlaneDetection;
+			};
+			name = Debug;
+		};
+		FD4F206A224962E400F15FA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VUFK37G6FW;
+				INFOPLIST_FILE = PlaneDetectionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fatihcanbekli.PlaneDetectionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PlaneDetection;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD4F2035224962E300F15FA2 /* Build configuration list for PBXProject "PlaneDetection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD4F2060224962E400F15FA2 /* Debug */,
+				FD4F2061224962E400F15FA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD4F2062224962E400F15FA2 /* Build configuration list for PBXNativeTarget "PlaneDetection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD4F2063224962E400F15FA2 /* Debug */,
+				FD4F2064224962E400F15FA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD4F2065224962E400F15FA2 /* Build configuration list for PBXNativeTarget "PlaneDetectionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD4F2066224962E400F15FA2 /* Debug */,
+				FD4F2067224962E400F15FA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD4F2068224962E400F15FA2 /* Build configuration list for PBXNativeTarget "PlaneDetectionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD4F2069224962E400F15FA2 /* Debug */,
+				FD4F206A224962E400F15FA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD4F2032224962E300F15FA2 /* Project object */;
+}
